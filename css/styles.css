@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color:salmon;
+    color: white;
+
+}
+.container-fluid{
+   padding: 3% 15% 7% 15%;
+
+}
+/* Code refactoring >> clean the code and combine elements that are repeated */
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/*------------------- Nav Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Features */
+#features{
+    background-color: white;
+    padding: 7% 12% ;
+    line-height: 2;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.fas{
+    color: salmon;
+    font-size: 3rem;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+.h3-feature{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.p-feature{
+    color: #8f8f8f;
+}
+
+/* Testimonial */
+
+#testimonials{
+    text-align: center;
+    background-color:salmon;
+    color: white;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color:salmon;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 5px 5px  10px 5px;
+}
+.carousel-item{
+    padding: 8% 12% ; 
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 3%;
+    
+}
+  
+/* Z Index  
+Only work if there is a positioning - absolute. 1 is above, -1 is below*/
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+
+    }
+}
+
+/* Footer */
+.cta-div{  
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.cta-h3{
+    font-weight: 800;
+    font-size: 2rem;
+    padding-top: 10%;
+}
+.cta-download-button{
+    margin:2% 1%;
+    
+}
+
+.footer-div{
+    text-align: center;
+}
+.icon-footer{
+    padding: 1% ;
+    font-size:2rem;
+}
